@@ -1,4 +1,4 @@
 (function () {
-	var cosM = angular.module('appname');
+	var cosM = angular.module('aqb.constant');
 
 })();

@@ -1,0 +1,10 @@
+<div>
+	<select ng-model="tmpl" ng-options="t.name for t in tmpls">
+		<option value="">(blank)</option>
+	</select>
+	url of the tmpl: <code>{{tmpl.url}}</code>
+	<hr/>
+	<div style="border: 2px solid red;">
+		<div ng-include="tmpl.url"></div>
+	</div>
+</div>

@@ -1,5 +1,5 @@
 (function () {
-	var rM = angular.module('appname.router');
+	var rM = angular.module('aqb.router');
 
 	// rM
 
