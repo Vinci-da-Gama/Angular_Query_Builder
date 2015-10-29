@@ -1,0 +1,14 @@
+<!-- <pre class="bs-example-scope">$scope.selectedIcon = {{ !selectedIcon ? '""' : selectedIcon}};
+</pre> -->
+<div style="margin-left: 5px">
+	<button
+		ng-controller="LastFieldQueryBuilderCtrl"
+		ng-change="getTheLastFieldQbResponsiveValue(rule)" 
+		type="button" class="btn btn-warning" ng-model="selectedIcon"
+		placeholder="{{btnPlaceholder}}"
+		data-html="10"
+		bs-options="icon.value as icon.value for icon in icons"
+		bs-select>
+		<span class="caret"></span>
+	</button>
+</div>

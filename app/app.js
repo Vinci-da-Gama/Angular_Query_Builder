@@ -1,6 +1,6 @@
 (function () {
 
-	var angu = ['ui.bootstrap', 'ngAnimate', 'mgcrea.ngStrap', 'angularMoment'];
+	var angu = ['ui.bootstrap', 'ngSanitize', 'ngAria', 'ngAnimate', 'mgcrea.ngStrap', 'angularMoment'];
 	var routerCtrl = ['aqb.router', 'aqb.ctrl'];
 	var cons = ['aqb.constant'];
 	var serv = ['aqb.sig.service', 'aqb.service'];
